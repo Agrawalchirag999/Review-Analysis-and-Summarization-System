@@ -1,0 +1,43 @@
+# Core Web Frameworkflask>=2.3.0
+
+Flask==3.0.0pandas>=1.5.0
+
+Werkzeug==3.0.1numpy>=1.23.0
+
+tensorflow>=2.13.0
+
+# Data Processingtensorflow-text>=2.13.0
+
+pandas==2.2.0torch>=2.0.0
+
+numpy==1.26.3transformers>=4.30.0
+
+textblob>=0.17.0
+
+# Machine Learningreportlab>=4.0.0
+
+scikit-learn==1.6.1requests>=2.31.0
+
+PyMuPDF>=1.23.0
+
+# NLPjoblib>=1.3.0
+
+textblob==0.18.0scikit-learn>=1.3.0
+
+nltk==3.9.1
+
+# PDF Processing
+PyMuPDF==1.24.0
+
+# Web Scraping
+beautifulsoup4==4.12.3
+requests==2.32.3
+lxml==5.1.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2024.1
+
+# Optional (for enhanced features)
+# transformers==4.40.0  # If using BERT models
+# torch==2.3.0  # If using PyTorch models

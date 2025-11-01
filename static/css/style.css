@@ -1,0 +1,208 @@
+/* Main Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header .lead {
+    font-weight: 300;
+}
+
+/* Image Styling */
+.main-image {
+    max-height: 300px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.main-image:hover {
+    transform: scale(1.02);
+}
+
+.result-image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+    border-bottom: none;
+    padding: 1rem 1.5rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Process Steps */
+.process-step {
+    padding: 1.5rem;
+    transition: all 0.3s;
+}
+
+.process-step.active {
+    background-color: rgba(0, 123, 255, 0.05);
+    border-radius: 10px;
+}
+
+.process-step.completed .progress-bar {
+    background-color: #28a745 !important;
+}
+
+.process-step.error .progress-bar {
+    background-color: #dc3545 !important;
+}
+
+/* Summary Styling */
+.summary-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+#summary-text {
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+/* Button Styling */
+.btn-primary {
+    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #3b5998 0%, #192f60 100%);
+}
+
+/* Progress Bar */
+.progress {
+    height: 8px;
+    border-radius: 4px;
+}
+
+.progress-bar {
+    transition: width 0.5s ease;
+}
+
+/* Status Text */
+.status-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+    transition: color 0.3s;
+}
+
+.process-step.active .status-text {
+    color: #007bff;
+    font-weight: 500;
+}
+
+.process-step.completed .status-text {
+    color: #28a745;
+    font-weight: 500;
+}
+
+.process-step.error .status-text {
+    color: #dc3545;
+    font-weight: 500;
+}
+
+/* Review Cards Styling */
+.review-card {
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+}
+
+.review-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.review-card .card-header {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 0.75rem 1rem;
+}
+
+.review-card .card-body {
+    padding: 1.25rem;
+}
+
+.review-card .badge {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.review-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.reviews-container {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid #dee2e6;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(135deg, #182848 0%, #4b6cb7 100%);
+}
+
+footer h5 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    padding-left: 1.2rem;
+}
+
+footer li {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+    .process-step {
+        margin-bottom: 2rem;
+    }
+    
+    .main-image {
+        max-height: 200px;
+        margin-top: 2rem;
+    }
+    
+    .card-header h3 {
+        font-size: 1.5rem;
+    }
+}

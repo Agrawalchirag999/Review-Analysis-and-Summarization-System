@@ -1,0 +1,38 @@
+
+Fake Review Detection Model Performance Report
+============================================
+Generated: 2025-10-31 22:48:32
+
+Dataset Information:
+- Total reviews processed: 10,000
+- Training samples: 7,000
+- Test samples: 3,000
+- Class distribution: {0: 9117, 1: 883}
+
+Model Performance:
+- Logistic Regression: 0.9130
+- Naive Bayes: 0.9117
+- Random Forest: 0.9117
+
+Best Model: Logistic Regression (Accuracy: 0.9130)
+
+Feature Engineering:
+- TF-IDF Vectorization with bi-grams
+- 500 features extracted
+- Text preprocessing with pattern detection
+
+Saved Files:
+- Best model: saved_models\fake_review_detector_20251031_224832_best_model.pkl
+- Vectorizer: saved_models\fake_review_detector_20251031_224832_vectorizer.pkl
+- All models: saved_models\fake_review_detector_20251031_224832_all_models.pkl
+- Complete package: saved_models\fake_review_detector_20251031_224832_complete_package.pkl
+- Prediction script: saved_models\fake_review_detector_20251031_224832_predictor.py
+
+Usage:
+To use the saved model, run:
+    python fake_review_detector_20251031_224832_predictor.py
+
+Or load in Python:
+    import pickle
+    with open('saved_models\fake_review_detector_20251031_224832_complete_package.pkl', 'rb') as f:
+        model_components = pickle.load(f)
