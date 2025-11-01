@@ -46,6 +46,8 @@ AI-powered system for detecting fake reviews, analyzing sentiment, and generatin
 
 ![Individual Reviews](static/images/screenshot3.png)
 *Individual review cards with ratings and confidence*
+<img width="1082" height="895" alt="image" src="https://github.com/user-attachments/assets/9028043e-66f7-4297-a73e-9f47631ea718" />
+
 
 ## 🚀 Quick Start
 
