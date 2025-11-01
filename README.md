@@ -286,7 +286,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- Your Name - Initial work
+CHIRAG AGRAWAL - J016
+JEET SHOREY - J024
+KHUSH GADA - J029
 
 ## 🙏 Acknowledgments
 
