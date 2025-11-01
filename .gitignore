@@ -32,11 +32,13 @@ data/real_reviews.csv
 data/real_reviews.pdf
 data/sentiment_stats.json
 
-# Large model files (too big for GitHub)
+# Large model files and datasets (too big for GitHub)
 model/
 char_vectorizer_model/
 *.pkl
 *.tgz
+train.csv
+test.csv
 
 # IDE
 .vscode/
